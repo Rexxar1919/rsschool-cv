@@ -1,0 +1,44 @@
+.left {
+    width: 35%;
+    padding: 10px;
+}
+
+.right {
+    width: 65%;
+    padding: 10px;
+    background-color: cyan;
+}
+
+.left img {
+    display: block;
+    margin: auto;
+    width: 80px;
+}
+
+header,
+main,
+footer {
+    background-color: lightblue;
+    width: 850px;
+    margin: auto;
+    min-height: 100px;
+    display: flex;
+}
+
+footer {
+    background-color: aliceblue;
+}
+
+footer ul li {
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+footer ul li a img {
+    height: 30px;
+}
+
+body {
+    background-color: cornsilk;
+}
